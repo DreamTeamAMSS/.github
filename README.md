@@ -9,10 +9,12 @@
 
 
 # Tabele
-1. User - username, email, pass, points
-2. Comment
-3. Badge
-4. UserBadges
+1. User 
+2. Badge
+3. Question
+4. Answer
+5. Suggestion
+   
 # Diagrame
 1. Diagrama generala:
    ![Diagrama generala (1)](https://github.com/DreamTeamAMSS/.github/assets/104629833/55ce095c-1355-4a00-8ead-9e7c7d253f08)
