@@ -13,3 +13,5 @@
 2. Comment
 3. Badge
 4. UserBadges
+
+![diagrama ER amss](https://github.com/DreamTeamAMSS/.github/assets/104629833/aab49fd9-d0ec-44dd-a9da-3c6fb0d885b4)
