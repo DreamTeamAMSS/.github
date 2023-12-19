@@ -24,5 +24,5 @@
 
 3. Diagrama de clase:
    
-4. Diagrama de secventa: 
+4. Diagrama de secventa pentru autentificare: 
 ![Diagrama de secventa](https://github.com/DreamTeamAMSS/.github/assets/104629833/dfa65615-57f4-467d-8166-6435930112da)
