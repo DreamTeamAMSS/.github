@@ -23,6 +23,10 @@
 ![diagrama ER amss](https://github.com/DreamTeamAMSS/.github/assets/104629833/aab49fd9-d0ec-44dd-a9da-3c6fb0d885b4)
 
 3. Diagrama de clase:
+![diagrama_clase](https://github.com/DreamTeamAMSS/.github/assets/63183691/88f86ab7-d484-495e-bd3d-db46444bec35")
+
+4. Diagrama arhitecturii aplicatiei
+![arh_app](https://github.com/DreamTeamAMSS/.github/assets/63183691/fedea3b4-cbbd-4933-8f86-64877bd64435)
    
-4. Diagrama de secventa pentru autentificare: 
+5. Diagrama de secventa pentru autentificare: 
 ![Diagrama de secventa](https://github.com/DreamTeamAMSS/.github/assets/104629833/dfa65615-57f4-467d-8166-6435930112da)
