@@ -85,10 +85,21 @@ Clientul introduce keyword-ul in search bar realizandu-se o cerere de tip `POST`
 Diagrama cazurilor de utilizare oferă o perspectivă foarte bună asupra funcționalităților aplicației și a modului în care actorii (în cazul nostru, utilizatorul înregistrat) interacționează cu aceste funcționalități.
 Astfel, putem observa că un utilizator înregistrat poate accesa răspunsurile pe care acesta le-a dat, întrebările pe care le-a pus, poate căuta oricând întrebări și poate accesa o întrebare din lista de rezultate returnată, poate accesa pagina Home unde va vedea cele mai recente întrebări puse de către utilizatori, pe care de asemenea le poate accesa. Acesta poate adăuga o întrebare nouă doar prin intermediul accesării paginii Home. Dacă utilizatorul a accesat pagina unei întrebări, acesta poate să adauge/modifice/șteargă un răspuns la acea întrebare sau să adauge/modifice/șteargă o sugestie la întrebare/un răspuns. Dacă utilizatorul curent înregistrat este cel care a pus întrebarea, acesta poate alege cel mai bun răspuns la întrebarea sa, ceea ce va premia autorul răspunsului cu puncte bonus!
 
+**8. Diagrama fluxului datelor**
+![image](https://github.com/DreamTeamAMSS/.github/assets/63183691/11da083f-fe5b-4297-97bb-9b9d21a01c4e)
+
+
 
 # Design Patterns
 
 **1. Backend**:
+
+In partea de backend a aplicatiei am folosit un creational pattern, si anume Builder oferit de către libraria Lombok, care simplifică procesul de creare a obiectelor in Java:
+![image](https://github.com/DreamTeamAMSS/.github/assets/63183691/40691cd7-3921-4f67-964a-9ea6a5971cc6)
+
+![image](https://github.com/DreamTeamAMSS/.github/assets/63183691/c6db82f1-86b8-47e2-be83-12e5ba547812)
+
+
 
 **2. Frontend**:
 In partea de Frontend a aplicatiei au fost utilizate cateva concepte ce pot fi asociate cu Design Patterns:
