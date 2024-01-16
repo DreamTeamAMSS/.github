@@ -58,9 +58,13 @@ are o cheie primara, iar relatiile dintre tabele sunt conturate astfel:
 
 **4. Diagrama arhitecturii aplicatiei**
 ![arh_app](https://github.com/DreamTeamAMSS/.github/assets/63183691/fedea3b4-cbbd-4933-8f86-64877bd64435)
+Arhitectura aplicatiei este formata dintr o interfata web realizata cu React.js, un server implementat cu Spring Boot si baza de date a server-ului de tip SQL realizata in PostgreSQL.
+Utilizatorul interactioneaza cu interfata web, interfata care la randul ei comunica cu server-ul prin metode de tip request-response pentru a furniza date din server catre interfata.
    
 **5. Diagrama de secventa pentru autentificare**: 
-![Diagrama de secventa](https://github.com/DreamTeamAMSS/.github/assets/104629833/dfa65615-57f4-467d-8166-6435930112da)
+![image](https://github.com/DreamTeamAMSS/.github/assets/63097668/966a499f-0bdb-4929-9d62-12df93a6954a)
+In diagrama de secventa pentru autentificare prezentam flow-ul ce are loc in momentul in care un utilizator se logheaza in aplicatie si doreste sa acceseze intrebarile.
+Metoda POST legata la endpoint-ul "login" realizeaza logarea utilizatorului prin intermediul validarii atat a email-ului si parolei, cat si a token-ului JWT. Tot pe baza validarii acestui token, ulterior utilizatorul va accesa lista cu intrebarile adresate in cadrul aplicatiei web.
 
 **6. Diagrama de secventa pentru cautarea unei intrebari care contine keyword-ul introdus de utilizator**:
 ![diagrama secventiala](https://github.com/DreamTeamAMSS/.github/assets/104629833/4b699dde-b6d3-48de-b742-724d733abf40)
