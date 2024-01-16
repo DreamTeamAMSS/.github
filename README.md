@@ -88,24 +88,29 @@ In partea de Frontend a aplicatiei au fost utilizate cateva concepte ce pot fi a
    1. Creational Patterns:
       Factory Method și Abstract Factory:
       - `useState` este un fel de "factory method" deoarece lucreaza cu o instanta noua a starii componentei, permitand crearea de stari locale pentru componente, similar cu modul in care Factory Method creeaza si returneaza obiecte.
+        
         <img width="528" alt="image" src="https://github.com/DreamTeamAMSS/.github/assets/104629833/9e529d8a-5443-4ce5-9803-3fcd2fe9e141">
 
    2. Structural Patterns:
       Facade:
       - Facade ofera o interfata simplificata catre un ansamblu mai mare de componente, astfel ca in React, am folosit o componenta de tip 'facade' care gestioneaza si ascunde detaliile complicate. (De exemplu pentru adaugarea intrebarii am facut o componenta separata pe care am apelat-o din componenta Home ca sa evitam incarcarea codului in componenta principala)
+        
         <img width="278" alt="image" src="https://github.com/DreamTeamAMSS/.github/assets/104629833/1b2c130a-dde8-496c-bc4c-897626c13d0d">
 
    3. Behavioral Patterns
       Observer:
       - efectele secundare gestionate cu ajutorul useEffect pot fi asociate cu Observer Pattern. useEffect permite observarea și reacționarea la modificările în starea unei componente sau la alte evenimente. Astfel, când starea se modifică, efectul asociat este notificat și poate reacționa în consecință.
+        
         <img width="200" alt="image" src="https://github.com/DreamTeamAMSS/.github/assets/104629833/3747a431-14d1-44a0-abf0-af19c5848ab0">
 
       Mediator:
       - compoentele pot comunica intre ele prin intermediul unui obiect mediator, in cazul nostru `Header` functioneaza mediator pentru evenimentele de cautare si pentru manipularea starii cautarii si `SearchBar` serveste ca o componenta controlata care primeste instructiuni de la parintele sau (`Header`) si furnizeaza rezultatele cautarii inapoi catre acesta
+        
         <img width="244" alt="image" src="https://github.com/DreamTeamAMSS/.github/assets/104629833/b2c0bf68-a0da-4ff9-a1ff-ce97a1b4b14c">
 
       Strategy, Template Method
       - utilziarea functionalitatii `fetch` poate fi comparata cu Strategy pentru obtinerea datelor in aplicatie, iar modul incare se utilizeaza poate respecta un Template Method, deoarece `fetch` reprezinta o strategie pentru a realiza cereri HTTP in aplicatei, iar modul in care structuram si gestionam cererile respecta un template method (daca datele nu au fost preluate vom afisa un mesaj de eroare, iar daca au fost preluate cu succes randam continutul)
+        
         <img width="439" alt="image" src="https://github.com/DreamTeamAMSS/.github/assets/104629833/8aa5d815-705b-47cd-accc-efd31174de13">
 
 
