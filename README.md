@@ -46,7 +46,7 @@
 ![diagrama ER amss](https://github.com/DreamTeamAMSS/.github/assets/104629833/aab49fd9-d0ec-44dd-a9da-3c6fb0d885b4)
 
 4. Diagrama de clase:
-![diagrama_clase](https://github.com/DreamTeamAMSS/.github/assets/63183691/88f86ab7-d484-495e-bd3d-db46444bec35")
+![diagrama_clase](https://github.com/DreamTeamAMSS/.github/assets/63183691/35029b3a-ced5-4bd0-bcb0-92dc92074c09)
 
 5. Diagrama arhitecturii aplicatiei
 ![arh_app](https://github.com/DreamTeamAMSS/.github/assets/63183691/fedea3b4-cbbd-4933-8f86-64877bd64435)
