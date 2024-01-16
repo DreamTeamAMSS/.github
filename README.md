@@ -135,9 +135,9 @@ In partea de Frontend a aplicatiei au fost utilizate cateva concepte ce pot fi a
 
 
 # Contributia membrilor echipei
-- Pascu Raluca-Ioana - partea de backend a aplicației, diagrama de clasă, diagrama de user case-uri, diagrama fluxului de date.
-- Nistor Andreea-Cristina - partea de frontend a aplicatiei, diagrama de obiecte, diagrama de secventa pentru cautare dupa keyword, diagrama fluxului de date.
-- Luca Pavel-Andrei - partea de frontend a aplicatiei, diagrama arhitecturii aplicatiei, diagrama de secventa pentru autentificare, diagrama fluxului de date.
+- **Pascu Raluca-Ioana** - partea de backend a aplicației, diagrama de clasă, diagrama de user case-uri, diagrama fluxului de date.
+- **Nistor Andreea-Cristina** - partea de frontend a aplicatiei, diagrama de obiecte, diagrama de secventa pentru cautare dupa keyword, diagrama fluxului de date.
+- **Luca Pavel-Andrei** - partea de frontend a aplicatiei, diagrama arhitecturii aplicatiei, diagrama de secventa pentru autentificare, diagrama fluxului de date.
 
 
 
