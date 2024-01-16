@@ -55,6 +55,13 @@ are o cheie primara, iar relatiile dintre tabele sunt conturate astfel:
    
 **3. Diagrama de clase**:
 ![diagrama_clase](https://github.com/DreamTeamAMSS/.github/assets/63183691/35029b3a-ced5-4bd0-bcb0-92dc92074c09)
+Am realizat diagrama de clasă pentru clasele de tip Entity din backend-ul aplicației pentru a surprinde relațiile, câmpurile și metodele din cadrul acestor tipuri de clase. Clasele entitate sunt reprezentări în cod Java ale modelului de date din baza de date. Practic, sunt mapări ale tabelelor din baza noastră de date relațională, astfel că vom avea următoarele 5 clase de tip entitate mapate la entitățile bazei nostre de date:
+1.UserEntity
+2.BadgeEntity
+3.QuestionEntity
+4.AnswerEntity
+5.SuggestionEntity
+Dat fiind că AnswerEntity, QuestionEntity și SuggestionEntity au în comun faptul că practic toate sunt comentarii, deci toate au fost scrise de către un user, au conținut text, data la care au fost create/modificate, acestea moștenesc clasa BaseCommentEntity(care conține field-urile comune enumerate). Am folosit class inheritance pentru a scrie cod redundant. Pentru celelalte entități care au în comun doar data la care au fost create/modificate am creat clasa BaseEntity.
 
 **4. Diagrama arhitecturii aplicatiei**
 ![arh_app](https://github.com/DreamTeamAMSS/.github/assets/63183691/fedea3b4-cbbd-4933-8f86-64877bd64435)
