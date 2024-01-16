@@ -17,7 +17,7 @@
    
 # Diagrame
 **1. Diagrama generala**:
-![Diagrama generala (3)](https://github.com/DreamTeamAMSS/.github/assets/104629833/22193dcb-b824-42ea-b3ee-2c3729799534)
+![Diagrama generala (4)](https://github.com/DreamTeamAMSS/.github/assets/104629833/e6b54622-a0bf-4186-bd77-f3a19985d5cc)
 
    La deschiderea aplicatiei apare pagina HOME care are functionalitati pentru utilizatorii logati si vizitatori nelogati:
    - daca utilizatorul nu este logat:
@@ -67,7 +67,7 @@ In diagrama de secventa pentru autentificare prezentam flow-ul ce are loc in mom
 Metoda POST legata la endpoint-ul "login" realizeaza logarea utilizatorului prin intermediul validarii atat a email-ului si parolei, cat si a token-ului JWT. Tot pe baza validarii acestui token, ulterior utilizatorul va accesa lista cu intrebarile adresate in cadrul aplicatiei web.
 
 **6. Diagrama de secventa pentru cautarea unei intrebari care contine keyword-ul introdus de utilizator**:
-![diagrama secventiala](https://github.com/DreamTeamAMSS/.github/assets/104629833/4b699dde-b6d3-48de-b742-724d733abf40)
+![diagrama secventiala (1)](https://github.com/DreamTeamAMSS/.github/assets/104629833/cb0a1d7b-e1ab-4a12-9e87-dc08db37593d)
 
 Clientul introduce keyword-ul in search bar realizandu-se o cerere de tip POST catre "/api/questions/search", apoi Serverul valideaza keyword-ul introdus returnand o lista cu intrebarile care contin acel cuvant, Clientul vizualizeaza intrebarile si selecteaza din lista intrebarea dorita, dupa care Serverul furnizeaza datele despre respectiva intrebare.
 
