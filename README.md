@@ -8,7 +8,7 @@
 7. Un utilizator autentificat poate primi puncte daca adauga raspunsuri, intrebari, sugestii sau daca ii este marcat raspunsul ca fiind best answer.
 
 
-# Tabele
+# Entities
 1. User 
 2. Badge
 3. Question
