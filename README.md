@@ -16,7 +16,7 @@
 5. Suggestion
    
 # Diagrame
-1. Diagrama generala:![Diagrama generala (3)](https://github.com/DreamTeamAMSS/.github/assets/104629833/22193dcb-b824-42ea-b3ee-2c3729799534)
+**1. Diagrama generala**:![Diagrama generala (3)](https://github.com/DreamTeamAMSS/.github/assets/104629833/22193dcb-b824-42ea-b3ee-2c3729799534)
 
    
    La deschiderea aplicatiei apare pagina HOME care are functionalitati pentru utilizatorii logati si vizitatori nelogati:
@@ -43,14 +43,30 @@
   
    
    
-3. Diagrama de obiecte: 
-![diagrama ER amss](https://github.com/DreamTeamAMSS/.github/assets/104629833/aab49fd9-d0ec-44dd-a9da-3c6fb0d885b4)
+**2. Diagrama de obiecte**: 
+![diagrama ER amss (1)](https://github.com/DreamTeamAMSS/.github/assets/104629833/b1f46ed1-0f21-4d6f-9335-3b26a98c0a0f)
 
-4. Diagrama de clase:
+Diagrama de obiecte reprezinta diagrama bazei de date si este alcatuita din 5 tabele. Fiecare tabel
+are o cheie primara, iar relatiile dintre tabele sunt conturate astfel:
+1. Utilizatorii inregistrati pot primi mai multe badge-uri in functie de punctele pe care le acumuleaza adaugand intrebari sau raspunsuri si sugestii la intrebarile existente (m:n badge - user)
+2. Un utilizator inregistrat poate adauga mai multe intrebari. (1:n user - question)
+3. Un utilizator inregistrat poate adauga mai multe raspunsuri la intrebarile existente, indiferent de cine este autorul respectivelor intrebari. (1:n user - answer)
+4. Un utilizator inregistrat poate adauga mai multe sugestii la intrebarile sau raspunsurile existente, indiferent de cine este autorul respectivelor intrebari sau raspunsuri. (1:n user - suggestion)
+5. O intrebare poate avea mai multe sugestii in cazul in care problema nu a fost formulata clar (1:n question - suggestion)
+6. Un raspuns poate avea mai multe sugestii in cazul in care nu sunt suficient de clare sau necesita imbunatatiri. (1:n answer - suggestion)
+7. O intrebare are un raspuns marcat ca Best Answer si acesta este marcat de catre autorul intrebarii. (1:1 question - answer)
+   
+**3. Diagrama de clase**:
 ![diagrama_clase](https://github.com/DreamTeamAMSS/.github/assets/63183691/35029b3a-ced5-4bd0-bcb0-92dc92074c09)
 
-5. Diagrama arhitecturii aplicatiei
+**4. Diagrama arhitecturii aplicatiei**
 ![arh_app](https://github.com/DreamTeamAMSS/.github/assets/63183691/fedea3b4-cbbd-4933-8f86-64877bd64435)
    
-6. Diagrama de secventa pentru autentificare: 
-![Diagrama de secventa](https://github.com/DreamTeamAMSS/.github/assets/104629833/dfa65615-57f4-467d-8166-6435930112da)
+**5. Diagrama de secventa pentru autentificare**: 
+![Diagrama de secventa](https://github.com/DreamTeamAMSS/.github/assets/104629833/dfa65615-57f4-467d-8166-6435930112da)\
+
+**6. Diagrama de secventa pentru cautarea unei intrebari care contine keyword-ul introdus de utilizator**:
+![diagrama secventiala](https://github.com/DreamTeamAMSS/.github/assets/104629833/4b699dde-b6d3-48de-b742-724d733abf40)
+
+Clientul introduce keyword-ul in search bar realizandu-se o cerere de tip POST catre "/api/questions/search", apoi Serverul valideaza keyword-ul introdus returnand o lista cu intrebarile care contin acel cuvant, Clientul vizualizeaza intrebarile si selecteaza din lista intrebarea dorita, dupa care Serverul furnizeaza datele despre respectiva intrebare.
+
