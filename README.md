@@ -5,7 +5,7 @@
 4. Un utilizator autentificat poate adauga atat intrebari noi, cat si raspunsuri la intrebarile altor utilizatori.
 5. Un utilizator autentificat poate marca cel mai bun raspuns la intrebarea sa.
 6. Un utilizator autentificat poate sugera imbunatiri/modificari la intrebari/raspunsuri.
-7. Un utilizator autentificat poate primi puncte daca adauga raspunsuri,...
+7. Un utilizator autentificat poate primi puncte daca adauga raspunsuri, intrebari, sugestii sau daca ii este marcat raspunsul ca fiind best answer.
 
 
 # Tabele
