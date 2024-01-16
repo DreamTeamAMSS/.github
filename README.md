@@ -95,6 +95,7 @@ Astfel, putem observa că un utilizator înregistrat poate accesa răspunsurile 
 **1. Backend**:
 
 In partea de backend a aplicatiei am folosit un creational pattern, si anume Builder oferit de către libraria Lombok, care simplifică procesul de creare a obiectelor in Java:
+
 ![image](https://github.com/DreamTeamAMSS/.github/assets/63183691/40691cd7-3921-4f67-964a-9ea6a5971cc6)
 
 ![image](https://github.com/DreamTeamAMSS/.github/assets/63183691/c6db82f1-86b8-47e2-be83-12e5ba547812)
