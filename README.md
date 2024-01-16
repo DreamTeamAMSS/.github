@@ -71,8 +71,8 @@ Utilizatorul interactioneaza cu interfata web, interfata care la randul ei comun
    
 **5. Diagrama de secventa pentru autentificare**: 
 ![image](https://github.com/DreamTeamAMSS/.github/assets/63097668/966a499f-0bdb-4929-9d62-12df93a6954a)
-In diagrama de secventa pentru autentificare prezentam flow-ul ce are loc in momentul in care un utilizator se logheaza in aplicatie si doreste sa acceseze intrebarile.
-Metoda POST legata la endpoint-ul "login" realizeaza logarea utilizatorului prin intermediul validarii atat a email-ului si parolei, si tranmite in response token-ul JWT de acces. Tot pe baza validarii acestui token, ulterior utilizatorul va accesa lista cu intrebarile adresate in cadrul aplicatiei web.
+In diagrama de secventa pentru autentificare prezentam flow-ul ce are loc in momentul in care un utilizator se logheaza in aplicatie si doreste sa posteze o intrebare.
+Metoda POST legata la endpoint-ul protejat "/login" realizeaza logarea utilizatorului prin intermediul validarii email-ului si parolei, si transmite in response token-ul JWT de acces. Tot pe baza validarii acestui token, ulterior utilizatorul va putea posta o intrebare.
 
 **6. Diagrama de secventa pentru cautarea unei intrebari care contine keyword-ul introdus de utilizator**:
 ![diagrama secventiala (1)](https://github.com/DreamTeamAMSS/.github/assets/104629833/cb0a1d7b-e1ab-4a12-9e87-dc08db37593d)
