@@ -21,22 +21,22 @@
 
    La deschiderea aplicatiei apare pagina HOME care are functionalitati pentru utilizatorii logati si vizitatori nelogati:
    - daca utilizatorul nu este logat:
-      - poate cauta o intrebare introducand un keyword, dupa care daca sunt rezultate, vor fi          afisate intr-o lista din care utilizatorul alege o intrebare si navigheaza la pagina             acesteia unde vizualizeaza continutul intrebarii, raspunsurile si sugestiile acesteia dar        nu poate face modificari pentru ca nu este logat
+      - poate cauta o intrebare introducand un keyword, dupa care daca sunt rezultate, vor fi afisate intr-o lista din care utilizatorul alege o intrebare si navigheaza la pagina acesteia unde vizualizeaza continutul intrebarii, raspunsurile si sugestiile acesteia dar nu poate face modificari pentru ca nu este logat; daca vrea sa se logheze o poate face din bara de navigare
       - are acces la optiunea de Log In
-         - daca utilizatorul are un cont, acesta este redirectionat catre pagina de Log In, unde          isi introduce datele:
-              - daca datele contului nu sunt corecte, acesta ramane pe pagina de Log In pana                      introduce datele corecte ale contului, fiind afisat un mesaj de eroare
-              - daca datele contului sunt corecte, acesta este redirectionat catre pagina HOME                   cu functionalitati pentru utilizatorul autentificat
-         - daca utilizatorul nu detine un cont, acesta este redirectionat catre pagina de Sign               Up unde completeaza campurile de email, username si parola:
-              - daca datele nu corespun cerintelor campurilor, utilizatorul nu este lasat sa isi                creeze cont pana nu introduce date corespunzatoare campurilor
-              - daca datele corespund cerintelor campurilor utilizatorul este autentificat in                   aplicatie si redirectionat catre pagina HOME pentru utilizatorul autentificat
+         - daca utilizatorul are un cont, acesta este redirectionat catre pagina de Log In, unde isi introduce datele:
+              - daca datele contului nu sunt corecte, acesta ramane pe pagina de Log In pana introduce datele corecte ale contului, fiind afisat un mesaj de eroare
+              - daca datele contului sunt corecte, acesta este redirectionat catre pagina HOME cu functionalitati pentru utilizatorul autentificat
+         - daca utilizatorul nu detine un cont, acesta este redirectionat catre pagina de Sign Up unde completeaza campurile de email, username si parola:
+              - daca datele nu corespun cerintelor campurilor, utilizatorul nu este lasat sa isi creeze cont pana nu introduce date corespunzatoare campurilor
+              - daca datele corespund cerintelor campurilor utilizatorul este autentificat in aplicatie si redirectionat catre pagina HOME pentru utilizatorul autentificat
    - daca utilizatorul este logat, acesta are mai multe optiuni:
-      - poate sa isi vizualizeze pagina de profil unde are acces la detalii si isi poate                vizualiza badge-urile obtinute in urma punctelor acumulate
-      - are optiunea de a iesi din cont apasand butonul de Log Out, fiind redirectionat inapoi          catre pagina de Log In
-      - are acces la o pagina care contine o lista cu intrebarile adaugate de el si de pe                fiecare intrebare poate naviga la pagina individuala a intrebarii
-      - are acces la o pagina care contine o lista cu raspunsurile adaugate de el si de pe                fiecare intrebare poate naviga la pagina individuala a intrebarii
+      - poate sa isi vizualizeze pagina de profil unde are acces la detalii si isi poate vizualiza badge-urile obtinute in urma punctelor acumulate
+      - are optiunea de a iesi din cont apasand butonul de Log Out, fiind redirectionat inapoi catre pagina de Log In
+      - are acces la o pagina care contine o lista cu intrebarile adaugate de el si de pe fiecare intrebare poate naviga la pagina individuala a intrebarii
+      - are acces la o pagina care contine o lista cu raspunsurile adaugate de el si de pe fiecare intrebare poate naviga la pagina individuala a intrebarii
       - are acces la o pagina care contine o lista cu sugestiile adaugate de el 
-      - poate naviga catre pagina "Adauga intrebare" si acolo dupa ce introduce datele unei             intrebari (titlu, descriere), aceasta este postata si este redirectionat catre pagina             intrebarii. Aici utilizatorul are mai multe optiuni fiind logat deja in aplicatie:
-         - poate adauga un raspuns si daca doreste, poate adauga si sugestii la raspunsurile                existente
+      - poate naviga catre pagina "Adauga intrebare" si acolo dupa ce introduce datele unei intrebari (titlu, descriere), aceasta este postata si este redirectionat catre pagina intrebarii. Aici utilizatorul are mai multe optiuni fiind logat deja in aplicatie:
+         - poate adauga un raspuns si daca doreste, poate adauga si sugestii la raspunsurile existente
          - poate adauga sugestii la intrebare
          - poate marca un raspuns ca fiind cel mai bun acordandu-i steluta
    
