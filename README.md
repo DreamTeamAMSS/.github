@@ -86,7 +86,7 @@ Clientul introduce keyword-ul in search bar realizandu-se o cerere de tip `POST`
 **2. Frontend**:
 In partea de Frontend a aplicatiei au fost utilizate cateva concepte ce pot fi asociate cu Design Patterns:
    1. Creational Patterns:
-      - Factory Method și Abstract Factory:
+      - Factory Method:
          - `useState` este un fel de "factory method" deoarece lucreaza cu o instanta noua a starii componentei, permitand crearea de stari locale pentru componente, similar cu modul in care Factory Method creeaza si returneaza obiecte.
         
            <img width="528" alt="image" src="https://github.com/DreamTeamAMSS/.github/assets/104629833/9e529d8a-5443-4ce5-9803-3fcd2fe9e141">
@@ -100,12 +100,12 @@ In partea de Frontend a aplicatiei au fost utilizate cateva concepte ce pot fi a
    3. Behavioral Patterns
       
       - Observer:
-         - efectele secundare gestionate cu ajutorul `useEffect` pot fi asociate cu Observer Pattern. useEffect permite observarea și reacționarea la modificările în starea unei componente sau la alte evenimente. Astfel, când starea se modifică, efectul asociat este notificat și poate reacționa în consecință.
+         - efectele secundare gestionate cu ajutorul `useEffect` pot fi asociate cu Observer Pattern. `useEffect` permite observarea si reactionarea la modificarile in starea unei componente sau la alte evenimente. Astfel, cand starea se modifica, efectul asociat este notificat si poate reactona in consecinta.
         
            <img width="200" alt="image" src="https://github.com/DreamTeamAMSS/.github/assets/104629833/3747a431-14d1-44a0-abf0-af19c5848ab0">
 
       - Mediator:
-         - compoentele pot comunica intre ele prin intermediul unui obiect mediator, in cazul nostru `Header` functioneaza mediator pentru evenimentele de cautare si pentru manipularea starii cautarii si `SearchBar` serveste ca o componenta controlata care primeste instructiuni de la parintele sau (`Header`) si furnizeaza rezultatele cautarii inapoi catre acesta
+         - componentele pot comunica intre ele prin intermediul unui obiect mediator, in cazul nostru `Header` functioneaza ca un mediator pentru evenimentele de cautare si pentru manipularea starii cautarii si `SearchBar` serveste ca o componenta controlata care primeste instructiuni de la parintele sau (`Header`) si furnizeaza rezultatele cautarii inapoi catre acesta
         
            <img width="244" alt="image" src="https://github.com/DreamTeamAMSS/.github/assets/104629833/b2c0bf68-a0da-4ff9-a1ff-ce97a1b4b14c">
 
