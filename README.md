@@ -61,6 +61,7 @@ Am realizat diagrama de clasă pentru clasele de tip Entity din backend-ul aplic
 3. QuestionEntity
 4. AnswerEntity
 5. SuggestionEntity
+
 Dat fiind că AnswerEntity, QuestionEntity și SuggestionEntity au în comun faptul că practic toate sunt comentarii, deci toate au fost scrise de către un user, au conținut text, data la care au fost create/modificate, acestea moștenesc clasa BaseCommentEntity(care conține field-urile comune enumerate). Am folosit class inheritance pentru a nu scrie cod redundant. Pentru celelalte entități care au în comun doar data la care au fost create/modificate am creat clasa BaseEntity.
 
 **4. Diagrama arhitecturii aplicatiei**
