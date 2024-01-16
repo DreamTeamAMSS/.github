@@ -134,5 +134,9 @@ In partea de Frontend a aplicatiei au fost utilizate cateva concepte ce pot fi a
             <img width="439" alt="image" src="https://github.com/DreamTeamAMSS/.github/assets/104629833/8aa5d815-705b-47cd-accc-efd31174de13">
 
 
+# Contributia membrilor echipei
+Pascu Raluca-Ioana - partea de backend a aplicației, diagrama de clasă, diagrama de user case-uri, diagrama fluxului de date
+
+
 
 
