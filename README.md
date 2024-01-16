@@ -67,7 +67,7 @@ Dat fiind că AnswerEntity, QuestionEntity și SuggestionEntity au în comun fap
 **4. Diagrama arhitecturii aplicatiei**
 ![arh_app](https://github.com/DreamTeamAMSS/.github/assets/63183691/fedea3b4-cbbd-4933-8f86-64877bd64435)
 Arhitectura aplicatiei este formata dintr o interfata web realizata cu React.js, un server implementat cu Spring Boot si baza de date a server-ului de tip SQL realizata in PostgreSQL.
-Utilizatorul interactioneaza cu interfata web, interfata care la randul ei comunica cu server-ul prin metode de tip request-response pentru a furniza date din server catre interfata.
+Utilizatorul interactioneaza cu interfata web, interfata care la randul ei comunica cu server-ul prin metode de tip HTTP request-response pentru a furniza date din server catre interfata.
    
 **5. Diagrama de secventa pentru autentificare**: 
 ![image](https://github.com/DreamTeamAMSS/.github/assets/63097668/966a499f-0bdb-4929-9d62-12df93a6954a)
