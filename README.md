@@ -71,3 +71,8 @@ Metoda POST legata la endpoint-ul "login" realizeaza logarea utilizatorului prin
 
 Clientul introduce keyword-ul in search bar realizandu-se o cerere de tip POST catre "/api/questions/search", apoi Serverul valideaza keyword-ul introdus returnand o lista cu intrebarile care contin acel cuvant, Clientul vizualizeaza intrebarile si selecteaza din lista intrebarea dorita, dupa care Serverul furnizeaza datele despre respectiva intrebare.
 
+#Design Patters
+**1. Backend**
+**2. Frontend**
+
+
